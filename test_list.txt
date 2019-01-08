@@ -1,0 +1,7 @@
+['one', 'two', 'three', 'four']
+
+
+outF = open("test_list.txt", "w+")
+string_list = str(test_list)
+outF.write(string_list) 
+outF.close
