@@ -8,30 +8,39 @@ Do we engineer other features, such as bigrams, or POS tags, or Mutual Informati
 What sort of vectorization should we use in our model? Boolean Vectorization? Count Vectorization? TF-IDF? More advanced vectorization strategies such as Word2Vec?
 
 
-- bigrams for class -  mutual information score 
-- lemmatization for improving score 
-- top word frequency per class 
+- bigrams for class -  mutual information score
+- lemmatization for improving score
+- top word frequency per class
 
-- check average length of each class of articles 
-	- would adding length as a feature be interesting? 
+- check average length of each class of articles
+	- would adding length as a feature be interesting?
 
-- is there a way to determine strongest weighted words ? 
+- is there a way to determine strongest weighted words ?
 - grid search with random forest tweaks (graph accuracy varations)
-- CLI - satire_tester 
+- CLI - satire_tester
 	- run regex on the input to get ride of new lines and turn it into a string
-	- use those helper functions 
-	- create loop 
-	- ascii art 
+	- use those helper functions
+	- create loop
+	- ascii art
 
-- slides for presentation 
+- slides for presentation
 	- rationale / question
-	- data-preprocessing process - scraping masters 
-	- EDA - Exploratory data Analysis 
-	- First Models - results 
-	- Changes 
-	- Future plans / additions possible Chrome extension with the model 
+	- data-preprocessing process - scraping masters
+	- EDA - Exploratory data Analysis
+	- First Models - results
+	- Changes
+	- Future plans / additions possible Chrome extension with the model
 		- get the "probability" something is satire (versus 1 or 0)
 		(maybe that's already in there somewhere?)
+
+
+<!-- -git pull (origin master) (return) -->
+-git status (return)
+-git add . (return)
+-git commit -m "message" (return) (if VIM comes up, google escape)
+-git push origin master (return)
+
+
 
 
 
