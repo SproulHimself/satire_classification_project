@@ -33,7 +33,12 @@ What sort of vectorization should we use in our model? Boolean Vectorization? Co
 		- get the "probability" something is satire (versus 1 or 0)
 		(maybe that's already in there somewhere?)
 
+- topic modelling 
+- lda topic modelling technique 
 
+- predict proba 
+- roc curve 
+- 
 <!-- -git pull (origin master) (return) -->
 -git status (return)
 -git add . (return)

@@ -49,10 +49,10 @@ headlines = driver.find_elements_by_class_name("headline hover-highlight entry-t
 
 graphs = driver.find_elements_by_tag("p")
 
-
+#skip element 0 
 headline = element2.find_element_by_xpath(".//div[1]/header/header/h1/a").text
 
-body = element2.find_elements_by_tag_name('p')
+body = element2.find_element_by_tag_name('p').text
 
 /html/body/div[9]/div[2]
 

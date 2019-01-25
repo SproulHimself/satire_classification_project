@@ -60,11 +60,11 @@ for i in range(1,1000):
 	time.sleep(1)
 
 
-def write_to_file(arts_list):
-	outF = open("satirewire_data.txt", "w+")
-	string_list = str(arts_list)
-	outF.write(string_list) 
-	outF.close
+	def write_to_file(arts_list):
+		outF = open("satirewire_data.txt", "w+")
+		string_list = str(arts_list)
+		outF.write(string_list) 
+		outF.close
 
 
 
