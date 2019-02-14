@@ -1,95 +1,3 @@
-# The Satire Detector
-
-
-One Paragraph of project description goes here
-
-#### Requirements
-
-Please see the requirements.txt file to run this on your machine.
-
-## smaller section title here
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### example of level3 title here
-
-
-```
-Give code example here
-```
-
-And repeat
-
-```
-until finished
-```
-
-First instance of cool visualization here (below):
-
-
-## example of level2 title here
-
-
-More explanations here
-
-### Continuing on
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### formatting things
-
-Explain something
-
-```
-Give an example
-```
-
-## Interactive Terminal
-
-Add additional notes about how to deploy this on a live system
-
-
-
-
-## Built With????
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
-
-## Next Steps
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-
-## Contributors?
-
-* **Chad Ruble & Andrew Sproul**
-
-
-## Acknowledgments
-
-* Cheers to Forest Polchow for all of his advice
-* Inspiration provided by media outlets worldwide
-
-
-
-
-
-
-
-
-
 # mod3-project
 
 Do we remove stop words, or not?
@@ -125,12 +33,12 @@ What sort of vectorization should we use in our model? Boolean Vectorization? Co
 		- get the "probability" something is satire (versus 1 or 0)
 		(maybe that's already in there somewhere?)
 
-- topic modelling
-- lda topic modelling technique
+- topic modelling 
+- lda topic modelling technique 
 
-- predict proba
-- roc curve
--
+- predict proba 
+- roc curve 
+- 
 <!-- -git pull (origin master) (return) -->
 -git status (return)
 -git add . (return)
