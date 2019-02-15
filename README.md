@@ -1,6 +1,6 @@
 # The Satire Detector
 
-This project was inspired by the vast amount of people whom spread satire as real news .
+This project was inspired by the vast amount of people whom spread satire as real news.
 
 
 ### [This README is under construction.]
