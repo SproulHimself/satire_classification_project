@@ -31,7 +31,7 @@ First, we started off by writing functions for each source to remove the body of
 Next, each article was tokenized with stop words and punctuation removed.
 
 <p align="center">
-<img width="422"  src="https://user-images.githubusercontent.com/34200538/52919468-cdde6000-32d0-11e9-87ec-b65978c5321d.png">
+<img width="822"  src="https://user-images.githubusercontent.com/34200538/52919468-cdde6000-32d0-11e9-87ec-b65978c5321d.png">
 </p>
 
 The final preprocessing step was to lemmatize the data using the WordNetLemmatizer() from the NLTK framework.
