@@ -16,25 +16,31 @@ Our initial goal was to scrape multiple sources to get 2500 articles for each ta
 
 --------
 
+
+
 ### Preprocessing
 First, we started off by writing functions for each source to remove the body of the articles from all the other unwanted content like the author's name. There were several of these functions, so here is a general example:
 
-<p align="center">
-  <!-- <img width="422" alt="images/clean_art_example" src="https://user-images.githubusercontent.com/25883937/27927285-e2c9f80a-6250-11e7-9553-e8fdd427730e.png">  -->
-</p>
+        satire_classification_project/images/tokenize_and_del_sw.png
+
 
 <p align="center">
-<img width="422"  src="https://github.com/SproulHimself/satire_classification_project/blob/master/images/clean_art_example_func.png">
+<img width="422"  src="https://user-images.githubusercontent.com/34200538/52919478-e189c680-32d0-11e9-897d-40a0969de351.png">
 </p>
 
 Next, each article was tokenized with stop words and punctuation removed.
 
-* IMAGE HERE
-
+<p align="center">
+<img width="422"  src="https://user-images.githubusercontent.com/34200538/52919468-cdde6000-32d0-11e9-87ec-b65978c5321d.png">
+</p>
 
 The final preprocessing step was to lemmatize the data using the WordNetLemmatizer() from the NLTK framework.
 
 ------
+
+
+
+
 ### Modeling
 
 Following the standard train test split, we chose to run Multinomial Naive Bayes and Random Forest classifiers.
@@ -47,3 +53,5 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 * I am in the process of converting my presentation for this project from slideshow into a proper readme format.
 
 * Thanks for your patience!
+
+<img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52919484-f1a1a600-32d0-11e9-8e49-d5f6a4b3029c.png">
