@@ -23,9 +23,9 @@ First, we started off by writing functions for each source to remove the body of
   <!-- <img width="422" alt="images/clean_art_example" src="https://user-images.githubusercontent.com/25883937/27927285-e2c9f80a-6250-11e7-9553-e8fdd427730e.png">  -->
 </p>
 
-<!-- https://github.com/Botafogo1894/Project1 -->
-<img src="/Users/sproul/Desktop/ds-projects/mod3/mod3-project/images/clean_art_example_func.png"/>
-
+<p align="center">
+<img width="422"  src="https://github.com/SproulHimself/satire_classification_project/blob/master/images/clean_art_example_func.png">
+</p>
 
 Next, each article was tokenized with stop words and punctuation removed.
 
