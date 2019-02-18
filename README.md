@@ -110,7 +110,7 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 Working on this project was very fun and informative. We built a simple command line interface to evaluate new articles. It was very satisfying to see the overwhelming majority of articles being correctly classified.
 
 <p align="center">
-<!-- <img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52919484-f1a1a600-32d0-11e9-8e49-d5f6a4b3029c.png"> -->
+<img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52970612-6da7f680-3382-11e9-8791-b241954b7e51.png">
 </p>
 
 ---
