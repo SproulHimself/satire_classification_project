@@ -70,6 +70,25 @@ The final preprocessing step was to lemmatize the data using the WordNetLemmatiz
 
 ------
 
+### Visualizing The Dataset
+
+**Dimensionality reduction using truncated SVD,
+aka: latent semantic analysis (LSA).**
+
+This transformer performs linear dimensionality reduction by means of truncated singular value decomposition (SVD). Contrary to principal component analysis (PCA), this estimator does not center the data before computing the singular value decomposition. This means it can work with scipy.sparse matrices efficiently.
+
+
+Here is a 3D graph of the entire vectorized dataset using TruncatedSVD:
+
+<p align="center">
+<img width="422"  src="https://user-images.githubusercontent.com/34200538/52926449-cab09780-3303-11e9-9af8-539f32e87c13.png">
+</p>
+
+
+#### [ TENSORBOARD VISUALIZATION COMING SOON ]
+
+------
+
 
 
 
@@ -83,6 +102,7 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 
 (Image taken from slideshow presentation)
 
+#### [ GRIDSEARCH & TPOT METRICS COMING SOON ]
 
 ----
 ### Summary
