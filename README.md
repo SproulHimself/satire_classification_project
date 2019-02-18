@@ -85,7 +85,7 @@ Here is a 3D graph of the entire vectorized dataset using TruncatedSVD:
 </p>
 
 
-#### [ TENSORBOARD VISUALIZATION COMING SOON ]
+<!-- #### [ TENSORBOARD VISUALIZATION COMING SOON ] -->
 
 ------
 
@@ -102,7 +102,7 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 
 (Image taken from slideshow presentation)
 
-#### [ GRIDSEARCH & TPOT METRICS COMING SOON ]
+<!-- #### [ GRIDSEARCH & TPOT METRICS COMING SOON ] -->
 
 ----
 ### Summary
