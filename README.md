@@ -1,10 +1,3 @@
-### [This README is under construction.]
-
-* In the process of converting the presentation for this project from slideshow into a proper readme format.
-
-* Thanks for your patience!
-
-
 # The Satire Detector
 
 <p align="center">
@@ -119,7 +112,7 @@ Working on this project was very fun and informative. We built a simple command 
 
 The model almost always makes a correct prediction when testing on articles from "out in the wild." However, at this time our model almost always identifies sports articles as satire. We plan to bolster database with more data from other sources which will include getting non-satire sports articles to train on.
 
-Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (Lolz). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
+Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (lolz). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
 
 
 
