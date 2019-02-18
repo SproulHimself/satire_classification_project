@@ -1,6 +1,6 @@
 ### [This README is under construction.]
 
-* I am in the process of converting my presentation for this project from slideshow into a proper readme format.
+* In the process of converting the presentation for this project from slideshow into a proper readme format.
 
 * Thanks for your patience!
 
