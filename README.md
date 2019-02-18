@@ -109,7 +109,9 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 
 Working on this project was very fun and informative. We built a simple command line interface to evaluate new articles. It was very satisfying to see the overwhelming majority of articles being correctly classified.
 
+<p align="center">
 <img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52919484-f1a1a600-32d0-11e9-8e49-d5f6a4b3029c.png">
+</p>
 
 ---
 
@@ -117,7 +119,7 @@ Working on this project was very fun and informative. We built a simple command 
 
 The model almost always makes a correct prediction when testing on articles from "out in the wild." However, at this time our model almost always identifies sports articles as satire. We plan to bolster database with more data from other sources which will include getting non-satire sports articles to train on.
 
-Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (LOL). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
+Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (Lolz). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
 
 
 
