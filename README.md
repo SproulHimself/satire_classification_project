@@ -1,15 +1,23 @@
+### [This README is under construction.]
+
+* I am in the process of converting my presentation for this project from slideshow into a proper readme format.
+
+* Thanks for your patience!
+
+
 # The Satire Detector
 
 
 ### Abstract
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
 ### Motivation
 
 This project was inspired by the vast amount of people whom spread satire as real news.
 
-
-
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
 
@@ -56,12 +64,21 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 (Image  taken from slideshow presentation)
 
 
-
 ----
-### [This README is under construction.]
-
-* I am in the process of converting my presentation for this project from slideshow into a proper readme format.
-
-* Thanks for your patience!
+### Summary
 
 <img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52919484-f1a1a600-32d0-11e9-8e49-d5f6a4b3029c.png">
+
+---
+
+### Next Steps
+
+The model almost always makes a correct prediction when testing on articles from "out in the wild." However, at this time our model almost always identifies sports articles as satire. We plan to bolster database with more data from other sources which will include getting non-satire sports articles to train on.
+
+Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (LOL). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
+
+
+
+* Continue to improve the database for both target labels. Accuracy quality is of upmost importance.
+
+* Build an interactive Google Chrome application to help internet surfers decipher between what is satire and what is not.
