@@ -1,5 +1,11 @@
 # The Satire Detector
 
+
+### Abstract
+
+
+### Motivation
+
 This project was inspired by the vast amount of people whom spread satire as real news.
 
 
@@ -21,8 +27,6 @@ Our initial goal was to scrape multiple sources to get 2500 articles for each ta
 ### Preprocessing
 First, we started off by writing functions for each source to remove the body of the articles from all the other unwanted content like the author's name. There were several of these functions, so here is a general example:
 
-        satire_classification_project/images/tokenize_and_del_sw.png
-
 
 <p align="center">
 <img width="422"  src="https://user-images.githubusercontent.com/34200538/52919478-e189c680-32d0-11e9-897d-40a0969de351.png">
@@ -43,7 +47,13 @@ The final preprocessing step was to lemmatize the data using the WordNetLemmatiz
 
 ### Modeling
 
-Following the standard train test split, we chose to run Multinomial Naive Bayes and Random Forest classifiers.
+Following the standard train test split, we chose to run Multinomial Naive Bayes and Random Forest classifiers. While we believe there is potential overfitting occurring, we were impressed with the base metrics we received.
+
+<p align="center">
+<img width="422"  src="https://user-images.githubusercontent.com/34200538/52919973-e7ce7180-32d5-11e9-9c69-105ea90a62d2.png">
+</p>
+
+(Image  taken from slideshow presentation)
 
 
 
