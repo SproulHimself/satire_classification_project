@@ -22,20 +22,35 @@
 
 This project was inspired by the vast amount of people whom spread satire as real news.
 
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/34200538/52924503-17dc3b80-32fb-11e9-9272-bd4c9b4235a5.png" width="200" />
+
+  <img src="https://user-images.githubusercontent.com/34200538/52924499-14e14b00-32fb-11e9-87e8-1f925a828c99.png" width="200" />
+</p>
+
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
 
 
+<!-- side by side image note comment here -->
+<!-- <p float="left">
+  <img src="/img1.png" width="100" />
+  <img src="/img2.png" width="100" />
+</p> -->
+
+
+
+---
 
 ### Dataset
 We had been told several times, acquiring and cleaning the data would take up the majority of our time on this project. At first, we tried not to believe the hype but ultimately the "data wrangling" process did take up a lot of our time.
 
 Our initial goal was to scrape multiple sources to get 2500 articles for each target label of satire and not satire. Due to time constraints and the speed of our scrapers we had to settle for 1200 satire examples and 900 non satire examples.
 
+
 --------
-
-
 
 ### Preprocessing
 First, we started off by writing functions for each source to remove the body of the articles from all the other unwanted content like the author's name. There were several of these functions, so here is a general example:
@@ -66,11 +81,13 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 <img width="422"  src="https://user-images.githubusercontent.com/34200538/52919973-e7ce7180-32d5-11e9-9c69-105ea90a62d2.png">
 </p>
 
-(Image  taken from slideshow presentation)
+(Image taken from slideshow presentation)
 
 
 ----
 ### Summary
+
+Working on this project was very fun and informative. We built a simple command line interface to evaluate new articles. It was very satisfying to see the overwhelming majority of articles being correctly classified.
 
 <img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52919484-f1a1a600-32d0-11e9-8e49-d5f6a4b3029c.png">
 
