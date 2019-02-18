@@ -7,6 +7,10 @@
 
 # The Satire Detector
 
+<p align="center">
+<img width="422"  src="https://user-images.githubusercontent.com/34200538/52924063-e6627080-32f8-11e9-93fa-fd333c8e0898.jpeg">
+</p>
+
 
 ### Abstract
 
