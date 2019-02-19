@@ -15,16 +15,17 @@
 
 This project was inspired by the vast amount of people whom spread satire as real news.
 
+https://www.cnn.com/2012/11/27/world/asia/north-korea-china-onion/index.html
+
+https://www.newyorker.com/humor/borowitz-report/trump-orders-all-white-house-phones-covered-in-tin-foil
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/34200538/52924503-17dc3b80-32fb-11e9-9272-bd4c9b4235a5.png" width="425" />
 
   <img src="https://user-images.githubusercontent.com/34200538/52924499-14e14b00-32fb-11e9-87e8-1f925a828c99.png" width="425" />
 </p>
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
 
 
 <!-- side by side image note comment here -->
@@ -93,7 +94,7 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 <img width="422"  src="https://user-images.githubusercontent.com/34200538/52919973-e7ce7180-32d5-11e9-9c69-105ea90a62d2.png">
 </p>
 
-(Image taken from slideshow presentation)
+<!-- (Image taken from slideshow presentation) -->
 
 <!-- #### [ GRIDSEARCH & TPOT METRICS COMING SOON ] -->
 
