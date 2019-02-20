@@ -5,19 +5,29 @@
 </p>
 
 
+> We live in the golden age of satire. It’s almost to the point where we seem to conduct as much of our political conversation through humor as through the normal media. 
+- Malcom Gladwell, in [The Satire Paradox](http://revisionisthistory.com/episodes/10-the-satire-paradox)
+
 ### Abstract
 
-Humans have a tough time differentiating between factual news and satire. In this project we see if our computers can tell the difference. We curated a data set, did a bunch of cleaning, ran some models, and found out our machines could do a pretty good job of classifying satire vs. not. The next steps are to improve our database and build a Chrome app that classifies an article as satire or not.
+With the rise of "fake news" and the increasing discourse about the means to manage the spread of misinformation, we wanted to take a slice of that category and see if we could train a model to reasonably predict whether a news item was satirical or not. Even humans can have a hard time determining whether or not an article is satirical. 
+
+In this project, we scraped and cleaned a data set of news articles labelled as satirical or not satirical. We used Natural Language Processing and Machine Learning techniques to find out that our model was reasonable accurate in predicting whether or not an article was satirical. Our next steps include improvements to our data set, and potential a Chrome extension that can classify an article on a page with our satire ranking. 
 
 ---
 
 ### Motivation
 
-This project was inspired by the vast amount of people whom spread satire as real news.
+This project was inspired by some high profile instances of legitimate organizations spreading satire as real news. 
 
 https://www.cnn.com/2012/11/27/world/asia/north-korea-china-onion/index.html
 
 https://www.newyorker.com/humor/borowitz-report/trump-orders-all-white-house-phones-covered-in-tin-foil
+
+
+<!-- There are some notable examples of legitimate news organizations taking satirical stories as serious news. 
+Satirical newsites continue to entertain their audiences. Incidents of serious news organizations picking up satirical news stories as factual have become well known and embarrassing examples of journalistic misunderstanding. much to their own embarrassment.  embarked on this project to determine how easily we could train a model to distinguish between satirical and factual news stories. Satire can be a nuanced 
+While people can sometimes have a hard time differentiating between factual news and satirehave a tough time differentiating between factual news and satire. -->
 
 <!-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." -->
 
@@ -38,7 +48,7 @@ https://www.newyorker.com/humor/borowitz-report/trump-orders-all-white-house-pho
 
 ---
 
-### Dataset
+### Data Set
 We had been told several times, acquiring and cleaning the data would take up the majority of our time on this project. At first, we tried not to believe the hype but ultimately the "data wrangling" process did take up a lot of our time.
 
 Our initial goal was to scrape multiple sources to get 2500 articles for each target label of satire and not satire. Due to time constraints and the speed of our scrapers we had to settle for 1200 satire examples and 900 non satire examples.
