@@ -72,11 +72,14 @@ aka: latent semantic analysis (LSA).**
 This transformer performs linear dimensionality reduction by means of truncated singular value decomposition (SVD). Contrary to principal component analysis (PCA), this estimator does not center the data before computing the singular value decomposition. This means it can work with scipy.sparse matrices efficiently.
 
 
-Here is a 3D graph of the entire vectorized dataset using TruncatedSVD:
+Here is a **stationary** 3D graph of the vectorized dataset using TruncatedSVD:
 
 <p align="center">
 <img width="822"  src="https://user-images.githubusercontent.com/34200538/52926449-cab09780-3303-11e9-9af8-539f32e87c13.png">
 </p>
+
+
+Here is an **animated** 3D graph of the vectorized dataset using TruncatedSVD:
 
 <p align="center">
 <img width="822"  src="https://thumbs.gfycat.com/AgileHomelyHake.webp">
