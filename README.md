@@ -12,7 +12,9 @@
 
 With the rise of "fake news" and the increasing discourse about the means to manage the spread of misinformation, we wanted to take a slice of that category and see if we could train a model to reasonably predict whether a news item was satirical or not. Even humans can have a hard time determining whether or not an article is satirical. 
 
-In this project, we scraped and cleaned a data set of news articles labelled as satirical or not satirical. We used Natural Language Processing and Machine Learning techniques to find out that our model was reasonable accurate in predicting whether or not an article was satirical. Our next steps include improvements to our data set, and potential a Chrome extension that can classify an article on a page with our satire ranking. 
+In this project, we scraped and cleaned a data set of news articles labelled as satirical or not satirical. We used Natural Language Processing and Machine Learning techniques to create a model that was reasonably accurate in predicting whether or not an article was satirical. 
+
+Our next steps include improvements to our data set, and potential a Chrome extension that can classify an article on a page with our satire ranking. 
 
 ---
 
@@ -20,16 +22,10 @@ In this project, we scraped and cleaned a data set of news articles labelled as 
 
 This project was inspired by some high profile instances of legitimate organizations spreading satire as real news. 
 
-https://www.cnn.com/2012/11/27/world/asia/north-korea-china-onion/index.html
+In 2012, The Onion ran [a piece](https://www.cnn.com/2012/11/27/world/asia/north-korea-china-onion/index.html) that declared North Korean leader Kim Jong Un the "sexiest man alive." The China's People's Daily Online took it seriously and ran it as a serious story. More recently, in March of 2017, a [satirical item](https://www.newyorker.com/humor/borowitz-report/trump-orders-all-white-house-phones-covered-in-tin-foil) by New Yorker write Andy Borowitz said that Trump had ordered the phones at the White House to be covered with tin foil. The satirical piece was picked up by was picked up online and in print by China’s Reference News, which is published by the state-run Xinhua news agency.  
 
-https://www.newyorker.com/humor/borowitz-report/trump-orders-all-white-house-phones-covered-in-tin-foil
+In an age where real news can test the credulity of reasonable readers, it can be increasingly hard to see the difference between satire and fact. So we were concerned that our model might not be effective. 
 
-
-<!-- There are some notable examples of legitimate news organizations taking satirical stories as serious news. 
-Satirical newsites continue to entertain their audiences. Incidents of serious news organizations picking up satirical news stories as factual have become well known and embarrassing examples of journalistic misunderstanding. much to their own embarrassment.  embarked on this project to determine how easily we could train a model to distinguish between satirical and factual news stories. Satire can be a nuanced 
-While people can sometimes have a hard time differentiating between factual news and satirehave a tough time differentiating between factual news and satire. -->
-
-<!-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." -->
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/34200538/52924503-17dc3b80-32fb-11e9-9272-bd4c9b4235a5.png" width="425" />
@@ -49,10 +45,9 @@ While people can sometimes have a hard time differentiating between factual news
 ---
 
 ### Data Set
-We had been told several times, acquiring and cleaning the data would take up the majority of our time on this project. At first, we tried not to believe the hype but ultimately the "data wrangling" process did take up a lot of our time.
+We had been told several times that acquiring and cleaning the data would take up the majority of our time on this project. At first, we tried not to believe the hype but ultimately the "data wrangling" process turned out to be rather time consuming. 
 
-Our initial goal was to scrape multiple sources to get 2500 articles for each target label of satire and not satire. Due to time constraints and the speed of our scrapers we had to settle for 1200 satire examples and 900 non satire examples.
-
+Our initial goal was to scrape multiple sources to get 2500 articles for each target label of satire and not satire. Due to time constraints and the speed of our scrapers we had to settle for 1200 satire examples and 900 non-satire examples.
 
 --------
 
@@ -117,7 +112,9 @@ Following the standard train test split, we chose to run Multinomial Naive Bayes
 ----
 ### Summary
 
-Working on this project was very fun and informative. We built a simple command line interface to evaluate new articles. It was very satisfying to see the overwhelming majority of articles being correctly classified.
+Working on this project was a great real-world application of complex natural language processing techniques.  
+
+We built a simple command line interface to evaluate new articles and were satisfied to see that the majority of our articles were correctly classified. Interestingly, articles from a Reddit thread [nottheonion](https://www.reddit.com/r/nottheonion/) were mostly classified as real news, but it misclassified many as satirical. But with headlines like, "National Weather Service Issues ‘Small Dog Warning’ Due to High Winds", you can't blame our model for lower performance on these types of articles.  
 
 <p align="center">
 <img width="730" alt="cli_satire_detector" src="https://user-images.githubusercontent.com/34200538/52970612-6da7f680-3382-11e9-8791-b241954b7e51.png">
@@ -127,12 +124,10 @@ Working on this project was very fun and informative. We built a simple command 
 
 ### Next Steps
 
-The model almost always makes a correct prediction when testing on articles from "out in the wild." However, at this time our model almost always identifies sports articles as satire. We plan to bolster database with more data from other sources which will include getting non-satire sports articles to train on.
+The model almost always makes a correct prediction when testing on articles from "the wild." However, at this time our model almost always identifies sports articles as satire. We plan to bolster database with more data from other sources which will include getting non-satire sports articles to train on.
 
 Also, although the irony is quite funny, our model usually predicts FOX News articles as satire (lolz). As hilarious as this is, a correct classification is the ultimate goal. In the near future, the goals for the project will be:
 
-
-
-* Continue to improve the database for both target labels. Accuracy quality is of upmost importance.
+* Continue to improve the data set for both target labels. Accuracy quality is of upmost importance.
 
 * Build an interactive Google Chrome application to help internet surfers decipher between what is satire and what is not.
