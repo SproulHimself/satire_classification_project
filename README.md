@@ -79,7 +79,7 @@ Here is a 3D graph of the entire vectorized dataset using TruncatedSVD:
 </p>
 
 <p align="center">
-<img width="822"  src="https://imgur.com/yHFgoD0.gif">
+<img width="822"  src="https://imgur.com/yHFgoD0">
 </p>
 
 
