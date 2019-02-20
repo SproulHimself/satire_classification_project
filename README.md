@@ -78,6 +78,10 @@ Here is a 3D graph of the entire vectorized dataset using TruncatedSVD:
 <img width="822"  src="https://user-images.githubusercontent.com/34200538/52926449-cab09780-3303-11e9-9af8-539f32e87c13.png">
 </p>
 
+<p align="center">
+<img width="822"  src="https://i.imgur.com/yHFgoD0.gifv">
+</p>
+
 
 <!-- #### [ TENSORBOARD VISUALIZATION COMING SOON ] -->
 
